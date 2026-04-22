@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  color: #2b283a;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: #5f29a3;
+  color: whitesmoke;
+  padding: 45px 0px;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header h3 {
+  font-size: 20px;
+  color: #d0aaff;
+}
+
+section {
+  padding: 45px 0px;
+}
+
+.sneakers-img {
+  width: 100%;
+}
+
+p {
+  margin: 10px 0 0 0;
+}
+
+a {
+  text-decoration: underline dotted;
+  color: #ef5839;
+}
+
+a:hover,
+a:active {
+  color: #d4b44c;
+}
