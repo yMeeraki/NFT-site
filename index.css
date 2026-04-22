@@ -16,9 +16,17 @@ h1 {
   font-size: 36px;
 }
 
+h2 {
+  margin-bottom: 10px;
+}
+
 h3 {
   color: #d0aaff;
   font-size: 20px;
+}
+
+p {
+  margin-top: 10px;
 }
 
 /* links */
@@ -45,6 +53,11 @@ header {
 
 section {
   padding: 45px 0;
+}
+
+.section {
+  background-color: #5f29a3;
+  color: whitesmoke;
 }
 
 .container {
