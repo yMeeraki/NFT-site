@@ -68,3 +68,13 @@ section {
 .main-image {
   width: 100%;
 }
+
+.images-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 300px;
+  border-radius: 4.6px;
+}
