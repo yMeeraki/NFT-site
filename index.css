@@ -36,27 +36,25 @@ a {
   text-decoration: underline dotted;
 }
 
-a:hover {
-  color: #d4b44c;
-}
-
+a:hover,
 a:active {
   color: #d4b44c;
 }
 
 /* layout */
 
-header {
+header,
+.section {
   background-color: #5f29a3;
-  padding: 45px 0;
 }
 
-section {
+header,
+section,
+footer {
   padding: 45px 0;
 }
 
 .section {
-  background-color: #5f29a3;
   color: whitesmoke;
 }
 
@@ -81,6 +79,6 @@ section {
 
 footer {
   color: #5f29a3;
-  padding: 45px 0;
+
   text-align: center;
 }
