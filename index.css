@@ -30,7 +30,7 @@ p {
   line-height: 23px;
 }
 
-/* links */
+/* links and buttons */
 
 a {
   color: #ef5839;
@@ -40,6 +40,37 @@ a {
 a:hover,
 a:active {
   color: #d4b44c;
+}
+
+.btn {
+  padding: 10px 19px;
+  border: none;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.bg-purple {
+  background: #5f29a3;
+  color: whitesmoke;
+}
+
+.bg-lightpurple {
+  background: #f0e0ff;
+}
+
+.bg-whitesmoke {
+  background: whitesmoke;
+}
+
+.bg-lightpurple,
+.bg-whitesmoke {
+  color: #5f29a3;
+}
+
+.btn:hover {
+  background: #f3e885;
+  color: #2b283a;
 }
 
 /* layout */
