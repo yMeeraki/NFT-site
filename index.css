@@ -32,7 +32,7 @@ p {
 
 .subheading {
   display: block;
-  font-size: 1.25rem;
+  font-size: 0.89rem;
   color: #d0aaff;
 }
 
@@ -154,8 +154,8 @@ footer {
     font-size: 2.25rem;
   }
 
-  .subheading{
-    font-size: .89rem;
+  .subheading {
+    font-size: 1.25rem;
   }
 
   h2 {
