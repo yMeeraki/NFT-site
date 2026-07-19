@@ -56,11 +56,17 @@ a:active {
   font-size: 1.125rem;
   font-weight: 500;
   text-decoration: none;
-  display: inline-block;
+  display: block;
+  text-align: center;
   padding: 0.5em 1em;
   margin-right: 0.5em;
   margin-bottom: 1em;
   border-radius: 4.6px;
+}
+@media (max-width: 768px) {
+  .btn {
+    display: inline-block;
+  }
 }
 
 .btn-dark {
@@ -135,7 +141,7 @@ footer {
 
 /* ----- MEDIA QUERIES ----- */
 
-@media (min-width: 480px) {
+/* @media (min-width: 480px) {
   .section-two-image-container {
     display: flex;
     justify-content: space-between;
@@ -144,4 +150,4 @@ footer {
   .feature-image {
     width: 48.8%;
   }
-}
+} */
