@@ -1,36 +1,52 @@
-* {
-  margin: 0;
-}
-
 body {
-  font-size: 16px;
   color: #2b283a;
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
-/* typography */
+/* ----- TYPOGRAPHY ----- */
+
+h1,
+h3 {
+  margin: 0;
+}
+
+/*
+  Challenge:
+   - Convert the font-size values of the
+     h1, h2, h3 and .subheading class from px to em
+*/
 
 h1 {
   color: whitesmoke;
-  font-size: 36px;
+  font-size: 36px; /* convert to em */
 }
 
 h2 {
-  margin-bottom: 10px;
+  color: #451c7a;
+  font-size: 28px; /* convert to em */
+  margin-top: 0;
 }
 
 h3 {
-  color: #d0aaff;
-  font-size: 20px;
+  font-size: 20px; /* convert to em */
 }
 
 p {
-  margin: 10px 0;
   line-height: 23px;
 }
 
-/* links and buttons */
+.subheading {
+  display: block;
+  font-size: 20px; /* convert to em */
+  color: #d0aaff;
+}
+
+.section-two h2 {
+  color: inherit;
+}
+
+/* ----- LINKS ----- */
 
 a {
   color: #ef5839;
@@ -43,78 +59,76 @@ a:active {
 }
 
 .btn {
-  padding: 10px 19px;
-  border: none;
-  border-radius: 4.6px;
+  font-size: 18px;
   font-weight: 500;
   text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4.6px;
 }
 
-.bg-purple {
-  background: #5f29a3;
+.btn-dark {
   color: whitesmoke;
+  background: #5f29a3;
 }
 
-.bg-lightpurple {
+.btn-mid {
+  color: #5f29a3;
   background: #f0e0ff;
 }
 
-.bg-whitesmoke {
+.btn-light {
+  color: #5f29a3;
   background: whitesmoke;
 }
 
-.bg-lightpurple,
-.bg-whitesmoke {
-  color: #5f29a3;
+.btn:hover,
+.btn:active {
+  color: #2b238a;
+  background-color: #f3e885;
 }
 
-.btn:hover {
-  background: #f3e885;
-  color: #2b283a;
-}
-
-/* layout */
-
-header,
-.section {
-  background-color: #5f29a3;
-}
+/* ----- LAYOUT ----- */
 
 header,
 section,
 footer {
-  padding: 45px 0;
+  padding: 46px 0;
 }
 
-.section {
+header,
+.section-two {
+  background-color: #5f29a3;
+}
+
+.section-two {
   color: whitesmoke;
 }
 
 .container {
-  max-width: 800px;
   width: 90%;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .main-image {
-  max-width: 500px;
   width: 100%;
   display: block;
+  max-width: 640px;
   margin: 0 auto 32px;
 }
 
-.images-container {
+.section-two-image-container {
   display: flex;
   justify-content: space-between;
 }
 
-.image {
-  width: 48%;
+.feature-image {
+  width: 48.8%;
   border-radius: 4.6px;
 }
 
 footer {
-  color: #5f29a3;
-
   text-align: center;
+  color: #5f29a3;
 }
