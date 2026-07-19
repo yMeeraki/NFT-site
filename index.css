@@ -91,12 +91,16 @@ footer {
 }
 
 .container {
+  max-width: 800px;
   width: 90%;
   margin: 0 auto;
 }
 
 .main-image {
+  max-width: 500px;
   width: 100%;
+  display: block;
+  margin: 0 auto 32px;
 }
 
 .images-container {
