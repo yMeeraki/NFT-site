@@ -23,7 +23,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 p {
@@ -32,7 +32,7 @@ p {
 
 .subheading {
   display: block;
-  font-size: 0.89rem;
+  font-size: 1rem;
   color: #d0aaff;
 }
 
@@ -125,6 +125,23 @@ footer {
   color: #5f29a3;
 }
 
+/* ----- NAVIGATION ----- */
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li:not(:last-child) {
+  border-bottom: 1px dotted #a190b6;
+}
+
 /* ----- MEDIA QUERIES ----- */
 
 @media (min-width: 480px) {
@@ -154,15 +171,11 @@ footer {
     font-size: 2.25rem;
   }
 
-  .subheading {
-    font-size: 1.25rem;
-  }
-
   h2 {
     font-size: 1.75rem;
   }
 
-  h3 {
+  .subheading {
     font-size: 1.25rem;
   }
 
