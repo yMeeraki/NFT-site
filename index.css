@@ -92,10 +92,6 @@ footer {
   padding: 1.25em 0;
 }
 
-header {
-  text-align: center;
-}
-
 header,
 .section-two {
   background-color: #5f29a3;
@@ -131,10 +127,6 @@ footer {
 
 /* ----- NAVIGATION ----- */
 
-nav {
-  margin-top: 1em;
-}
-
 nav a {
   color: #fff;
   text-decoration: none;
@@ -147,10 +139,6 @@ ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
-}
-
-li:not(:last-child) {
-  border-bottom: 1px dotted #a190b6;
 }
 
 /* ----- MEDIA QUERIES ----- */
@@ -166,23 +154,25 @@ li:not(:last-child) {
   }
 }
 
+@media (max-width: 767px) {
+    header {
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 1em;
+  }
+
+li:not(:last-child) {
+  border-bottom: 1px dotted #a190b6;
+}
+}
+
 @media (min-width: 768px) {
   header,
   section,
   footer {
     padding: 2.875em 0;
-  }
-
-  header {
-    text-align: left;
-  }
-
-  nav {
-    margin-top: 0;
-  }
-
-  li:not(:last-child) {
-    border-bottom: none;
   }
 
   .btn {
