@@ -155,7 +155,7 @@ ul {
 }
 
 @media (max-width: 767px) {
-    header {
+  header {
     text-align: center;
   }
 
@@ -163,9 +163,9 @@ ul {
     margin-top: 1em;
   }
 
-li:not(:last-child) {
-  border-bottom: 1px dotted #a190b6;
-}
+  li:not(:last-child) {
+    border-bottom: 1px dotted #a190b6;
+  }
 }
 
 @media (min-width: 768px) {
@@ -173,6 +173,20 @@ li:not(:last-child) {
   section,
   footer {
     padding: 2.875em 0;
+  }
+
+  header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  li:not(:last-child){
+    margin-right: 1.5em;
   }
 
   .btn {
