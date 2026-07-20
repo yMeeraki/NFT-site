@@ -92,6 +92,10 @@ footer {
   padding: 1.25em 0;
 }
 
+header {
+  text-align: center;
+}
+
 header,
 .section-two {
   background-color: #5f29a3;
@@ -127,12 +131,15 @@ footer {
 
 /* ----- NAVIGATION ----- */
 
+nav {
+  margin-top: 1em;
+}
+
 nav a {
   color: #fff;
   text-decoration: none;
   font-size: 1.125rem;
-  text-align: center;
-  padding: .5em 0;
+  padding: 0.5em 0;
   display: block;
 }
 
@@ -141,7 +148,6 @@ ul {
   margin: 0;
   list-style-type: none;
 }
-
 
 li:not(:last-child) {
   border-bottom: 1px dotted #a190b6;
@@ -165,6 +171,18 @@ li:not(:last-child) {
   section,
   footer {
     padding: 2.875em 0;
+  }
+
+  header {
+    text-align: left;
+  }
+
+  nav {
+    margin-top: 0;
+  }
+
+  li:not(:last-child) {
+    border-bottom: none;
   }
 
   .btn {
