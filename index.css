@@ -138,6 +138,12 @@ ul {
   list-style-type: none;
 }
 
+li {
+  font-size: 1.125rem;
+  text-align: center;
+  padding: .5em 0;
+}
+
 li:not(:last-child) {
   border-bottom: 1px dotted #a190b6;
 }
